@@ -1,0 +1,79 @@
+header {
+  position: fixed;
+  top: 0px;
+  border: red;
+}
+
+body {
+  margin-top: 75px;
+  background-image:
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1910&q=80");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: scroll;
+}
+
+p.striketab {
+  margin-left: 40px;
+  text-decoration: line-through;
+}
+
+p.tab {
+  margin-left: 80px;
+  font: 200 25px/1 'Pacifico', Helvetica, sans-serif;
+  color: #2b2b2b;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1), 7px 7px 0px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+  color: red;
+  font-size: 60;
+}
+
+p.h1portfolio {
+  color: black;
+  font-size: 40;
+}
+
+ul {
+  font-weight: bold;
+}
+
+footer.aboutfooter {
+  position: fixed;
+  bottom: 10px;
+  left: 0px;
+}
+
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: grey;
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 18px;
+  /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555;
+  /* Add a dark-grey background on hover */
+}
